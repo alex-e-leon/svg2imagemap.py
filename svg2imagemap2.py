@@ -69,7 +69,7 @@ for e in elements:
 
 out = []
 for path in paths:
-    out.append('<area href="#" shape="poly" coords="%s"></area>' %
+    out.append('<area href="#" shape="poly" coords="%s" />' %
         (', '.join([ ("%d,%d" % (p[0]*width_ratio, p[1]*height_ratio)) for p in path ]))
         )
 
